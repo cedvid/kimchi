@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #E9DDCD;
+    flex: 1;
+    margin: 0;
+}
+.logo {
+    margin-left: 2em;
+}
+.logo p {
+    margin: 0;
+}
+.korean {
+    font-size: 2em;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 5em;
+    margin-right: 2em;
+    font-size: 1.3em;
+}
+.main {
+    text-align: center;
+    background-color: #748E71;
+    color: #E9DDCD;
+    flex: 5;
+}
+.main-text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5em;
+}
+.footer {
+    background: #E9DDCD;
+    color: #748E71;
+    flex: 1;
+}
+.left-block, .middle-block, .right-block {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.main h1 {
+    margin-bottom: 0;
+}
+img {
+    align-self: center;
+    width: 10em;
+    height: auto;
+}
+.footer {
+    text-align: center;
+}
+.footer h1 {
+    margin-bottom: 0;
+}
